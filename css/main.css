@@ -72,7 +72,6 @@ html {
   opacity: 1;
 }
 
-
 @media only screen and (min-width: 60em) {
 
   .woof {
@@ -107,9 +106,11 @@ html {
 }
 
 @keyframes spin {
+
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
