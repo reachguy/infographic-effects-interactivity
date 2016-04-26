@@ -8,9 +8,9 @@ $woof.waypoint(function (direction) {
   if (direction == 'down') {
     $woof.addClass('js-woof-animate');
   } else {
-  $woof.removeClass('js-woof-animate');
+    $woof.removeClass('js-woof-animate');
   }
-}, { offset: '100%' });
+}, {offset: '100%'});
 
 $core.waypoint(function (direction) {
   if (direction == 'down') {
@@ -18,7 +18,7 @@ $core.waypoint(function (direction) {
   } else {
   $core.removeClass('js-core-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
 
 $personality.waypoint(function (direction) {
   if (direction == 'down') {
@@ -26,7 +26,7 @@ $personality.waypoint(function (direction) {
   } else {
   $personality.removeClass('js-personality-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
 
 $speakingOf.waypoint(function (direction) {
   if (direction == 'down') {
@@ -34,7 +34,7 @@ $speakingOf.waypoint(function (direction) {
   } else {
   $speakingOf.removeClass('js-speaking-of-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
 
 $tech.waypoint(function (direction) {
   if (direction == 'down') {
@@ -42,4 +42,4 @@ $tech.waypoint(function (direction) {
   } else {
   $tech.removeClass('js-tech-animate');
   }
-}, { offset: '50%' });
+}, {offset: '50%'});
