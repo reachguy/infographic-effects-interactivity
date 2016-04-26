@@ -1,0 +1,106 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: lightskyblue;
+}
+
+.woof {
+  margin: 0 auto;
+  margin-top: -20%;
+  margin-bottom: -20%;
+  opacity: 0;
+  transition: all .5s ease-in;
+}
+
+.js-woof-animate {
+  opacity: 1;
+}
+
+.core {
+  position: relative;
+  transition: all .7s ease;
+  right: 100%;
+}
+
+.js-core-animate {
+  right: 0;
+}
+
+.personality {
+  position: relative;
+  transition: all .7s ease;
+  right: 100%;
+}
+
+.js-personality-animate {
+  right: 0;
+}
+
+.speaking-of {
+  position: relative;
+  transition: all .7s ease;
+  right: 100%;
+}
+
+.js-speaking-of-animate {
+  right: 0;
+}
+
+.tech {
+  position: relative;
+  transition: all .7s ease;
+  opacity: 0;
+}
+
+.js-tech-animate {
+  opacity: 1;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .woof {
+    margin-top: -5em;
+    margin-bottom: -10%;
+  }
+}
+
+.core {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.personality {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.speaking-of {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.tech {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
